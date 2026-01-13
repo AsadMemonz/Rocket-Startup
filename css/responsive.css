@@ -1,0 +1,448 @@
+@media screen and (max-width:768px) {
+
+    .nav1,
+    .nav2 {
+        gap: 0px !important;
+        text-align: center;
+    }
+
+    .nav2 {
+        background-color: rgba(0, 0, 0, 0.2);
+        /* width: 40%; */
+    }
+
+    .nav3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .row1 h2 {
+        font-size: 6rem;
+    }
+
+    .row1 h3 {
+        font-size: 1.3rem;
+    }
+
+    .row1 p {
+        font-size: 1.1rem;
+    }
+
+    .image1 img {
+        width: 50%;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .section2 a {
+        margin-top: 10px;
+    }
+
+    .row5 h2,
+    .row5 p {
+        font-size: 1.7rem;
+    }
+
+    .row5 a {
+        font-size: 1.3rem;
+    }
+
+    .row6 {
+        margin-top: 25px;
+    }
+
+    .list-b {
+        /* display: flex !important; */
+        gap: 10px !important;
+    }
+
+    .list-b li a img {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:640px) {
+
+    .row1 h2 {
+        font-size: 4.8rem;
+    }
+
+    .row1 h3 {
+        font-size: 1.1rem;
+    }
+
+    .row1 p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .row2 {
+        justify-content: space-evenly !important;
+    }
+
+
+    .row2 a {
+        width: 200px;
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 13px 0px;
+    }
+
+    .section2 a {
+        width: 220px;
+        height: 70px;
+        font-size: 1.3rem;
+    }
+
+    .row5 {
+        height: 130px;
+    }
+
+    .row5-col {
+        padding: 0px !important;
+    }
+
+
+    .row5 h2,
+    .row5 p {
+        font-size: 1.2rem;
+    }
+
+    .row5 a {
+        font-size: 1rem;
+        padding: 11px 25px;
+    }
+
+    .list-b {
+        padding: 0px;
+    }
+
+    .list-b li {
+        width: 72px;
+        text-align: center;
+    }
+
+    .foot {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .header {
+        height: 700px;
+    }
+
+
+    .row1 {
+        height: 400px;
+    }
+
+
+    .nav3 {
+        justify-content: space-evenly;
+    }
+
+    .row1 h2 {
+        font-size: 4rem;
+    }
+
+    .row1 h3 {
+        font-size: 1rem;
+    }
+
+    .row1 p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .section2 a {
+        height: 60px;
+        font-size: 1.2rem;
+    }
+
+
+    .row3 h3 {
+        font-size: 2.2rem;
+    }
+
+    .row3 p {
+        font-size: 1.1rem;
+
+    }
+
+    .image {
+        width: 125px;
+        height: 125px;
+    }
+
+    .row5 h2,
+    .row5 p {
+        font-size: 1.03rem;
+    }
+
+    .row5 a {
+        font-size: 0.9rem;
+        padding: 8px 22px;
+    }
+
+    .row6 h3 {
+        font-size: 2.2rem;
+
+    }
+
+    .row6 p {
+
+        font-size: 1rem;
+    }
+
+    .line1 h3 {
+        font-size: 1.1rem;
+    }
+
+    .list-b li {
+        width: 61px;
+    }
+
+    .foot {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .header {
+        height: 650px;
+    }
+
+    .row1 {
+        height: 350px;
+    }
+
+    .image1 img {
+        width: 70%;
+    }
+
+    .section2 h3 {
+        font-size: 2.2rem;
+    }
+
+    .section2 p {
+        font-size: 1rem;
+    }
+
+    .logo1 {
+        width: 160px;
+    }
+
+    .logo1 img {
+        width: 100%;
+    }
+
+    .row1 h2 {
+        font-size: 2.9rem;
+    }
+
+    .row1 h3 {
+        font-size: 0.8rem;
+    }
+
+    .row1 p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row2 a {
+        font-size: 1.1rem;
+
+    }
+
+    .section2 h2 {
+        font-size: 1.1rem;
+    }
+
+    .section2 a {
+        height: 55px;
+        font-size: 1.1rem;
+    }
+
+    .row5 h2,
+    .row5 p {
+        font-size: 0.71rem;
+    }
+
+    .row5 a {
+        font-size: 0.8rem;
+        padding: 5px 11px;
+    }
+
+    .list1 {
+        justify-content: space-evenly;
+    }
+
+    .row6 h3 {
+        font-size: 2rem;
+    }
+
+    .line1 h3 {
+        font-size: 1.1rem;
+    }
+
+    .row6 p {
+        text-align: justify;
+    }
+
+    .list-b li {
+        width: 40px;
+    }
+
+    .foot {
+        height: 300px;
+    }
+
+
+    .foot h2 {
+        font-size: 2rem;
+    }
+
+
+    .foot1 p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .header {
+        height: 500px;
+    }
+
+    .logo1 {
+        width: 130px;
+    }
+
+    .nav1 li a {
+        font-size: 1rem;
+    }
+
+    .nav3 {
+        justify-content: center;
+    }
+
+    .row1 {
+        height: 250px;
+    }
+
+    .row1 h2 {
+        font-size: 2.5rem;
+    }
+
+    .row1 h3 {
+        font-size: 0.7rem;
+    }
+
+    .row1 p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row2 a {
+        width: 150px;
+        font-size: 0.9rem;
+        padding: 10px 0px;
+    }
+
+    .section2 {
+        margin-top: 40px;
+    }
+
+    .section2 h2 {
+        font-size: 0.9rem;
+    }
+
+    .section2 h3 {
+        font-size: 1.8rem;
+    }
+
+    .section2 p {
+        text-align: justify;
+        font-size: 0.9rem;
+    }
+
+    .section2 a {
+        width: 160px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    .row3 h2 {
+        font-size: 1.1rem;
+    }
+
+    .row3 h3 {
+        font-size: 2rem;
+    }
+
+    .row3 p {
+        font-size: 0.9rem;
+    }
+
+    .row4 h2 {
+        font-size: 1.3rem;
+    }
+
+    .row5 {
+        height: 100px;
+    }
+
+    .row5 h2,
+    .row5 p {
+        font-size: 0.6rem;
+    }
+
+    .row5 a {
+        font-size: 0.65rem;
+        padding: 5px 8px;
+    }
+
+    .row6 h3 {
+        font-size: 1.8rem;
+    }
+
+    .line1 h3 {
+        font-size: 1.1rem;
+    }
+
+    .list1 {
+        justify-content: center;
+    }
+
+    .foot {
+        height: 250px;
+    }
+
+    .foot h2 {
+        font-size: 1.8rem;
+    }
+
+    .list-b li {
+        width: 30px;
+    }
+}

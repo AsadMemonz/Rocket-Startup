@@ -1,0 +1,298 @@
+* {
+    list-style-type: none;
+    outline: none;
+    border: none;
+    text-decoration: none !important;
+}
+
+
+.header {
+    width: 100%;
+    height: 892px;
+    background: url(../images/head.jpg);
+    background-size: cover;
+}
+
+.nav1 li a {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.nav2 li a {
+    color: #000;
+}
+
+.nav3 li a {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    color: #f5993e;
+}
+
+.row1 {
+    height: 500px;
+}
+
+.line2 {
+    width: 60px;
+}
+
+.row1 h2,
+.row1 h3,
+.row1 p {
+    font-family: Roboto;
+    font-size: 7.1rem;
+    color: #fff;
+}
+
+.row1 h3 {
+    font-size: 1.5rem;
+}
+
+.row1 p {
+    font-size: 1.2rem;
+}
+
+.row2 a {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 15px 55px;
+    transition: all 300ms linear;
+}
+
+.row2 a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.section2 h2,
+.section2 h3,
+.section2 p {
+    font-family: Roboto;
+    font-size: 1.3rem;
+    color: #ff6012;
+}
+
+.section2 h3,
+.section2 p {
+    font-size: 2.5rem;
+    color: #4b4b4b;
+}
+
+.section2 p {
+    font-size: 1.1rem;
+}
+
+
+.section2 a {
+    width: 260px;
+    height: 80px;
+    line-height: 80px;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #ff6012;
+    margin-top: 80px;
+    transition: all 300ms ease-in-out;
+}
+
+.section2 a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ff6012;
+}
+
+.section3 {
+    /* height: 600px; */
+}
+
+.section3,
+.section5 {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.row3 h2,
+.row3 h3,
+.row3 p {
+    font-family: Roboto;
+    font-size: 1.3rem;
+    color: #ff6012;
+}
+
+.row3 h3,
+.row3 p {
+    font-size: 2.5rem;
+    color: #4b4b4b;
+}
+
+.row3 p {
+    font-size: 1.2rem;
+}
+
+.image {
+    width: 155px;
+    height: 155px;
+    background-color: #fff;
+}
+
+.row4 h2,
+.row4 p {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.row4 p {
+    font-size: 1rem;
+}
+
+.section4{
+    background: linear-gradient(90deg, #fd9b3a, #fa7524)
+}
+
+
+.row5 {
+    width: 100%;
+    height: 220px;
+}
+
+.row5 h2,
+.row5 p,
+.row5 a {
+    font-family: Roboto;
+    font-size: 2.8rem;
+    color: #fff;
+}
+
+
+.row5 a {
+    padding: 15px 45px;
+    font-size: 1.5rem;
+    transition: all 300ms linear;
+}
+
+.row5 a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.row6 h2,
+.row6 h3 {
+    font-family: Roboto;
+    font-size: 1.3rem;
+    color: #ff6012;
+}
+
+.row6 h3,
+.row6 p {
+    font-size: 2.5rem;
+    color: #4b4b4b;
+}
+
+.row6 p {
+    font-size: 1.1rem;
+}
+
+.line1{
+    width: 100%;
+}
+
+.line1 h2,
+.line1 h3{
+    font-family: Roboto;
+    font-size: 1.1rem;
+    color: #010000;
+}
+
+.trans1{
+    width: 100%;
+    height: 13px;
+    background-color: #d8d8d8;
+    position: relative;
+    overflow: hidden;
+}
+
+.inrtrans{
+    width: 95%;
+    height: 13px;
+    background-color: #ff6012;
+    transition: all 800ms linear;
+    position: absolute;
+    right: 100%;
+}
+
+.trans1:hover .inrtrans{
+    right: 5%;
+}
+
+.line1:nth-child(2) .trans1 .inrtrans{
+    width: 91%;
+}
+
+.line1:nth-child(2) .trans1:hover .inrtrans{
+    right: 9%;
+}
+
+.line1:nth-child(3) .trans1 .inrtrans{
+    width: 98%;
+}
+
+.line1:nth-child(3) .trans1:hover .inrtrans{
+    right: 2%;
+}
+
+
+.row6 ul li{
+    width: 40px;
+    height: 40px;
+}
+
+.row6 ul li a i:hover{
+    color: #fd9f3c;
+}
+
+.foot{
+    width: 100%;
+    height: 500px;
+}
+
+.foot h2{
+    font-family: Roboto;
+    font-size: 2.8rem;
+    color: #4b4b4b;
+}
+
+.carousel-control-prev-icon{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #d9cafc;
+    border-radius: 50%;
+    background: url(../images/left-arrow.png) no-repeat center center #fff;
+}
+
+
+.carousel-control-next-icon{
+    border: 2px solid #d9cafc;
+    border-radius: 50%;
+    background: url(../images/right-arrow.png)no-repeat center center;
+}
+
+.footerr{
+    width: 100%;
+    background-color: #ff6012;
+}
+
+.foot1{
+    width: 100%;
+    height: 50px;
+}
+
+.foot1 p{
+    font-family: Roboto;
+    font-size: 0.9rem;
+    color: #fff;
+}
